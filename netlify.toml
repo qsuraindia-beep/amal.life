@@ -1,5 +1,5 @@
 [build]
-  command = "pnpm --filter @amal/amal-engine run build && pnpm --filter @amal/app-web run build"
+  command = "pnpm --filter \"@amal/app-web...\" run build"
   publish = "apps/web/out"
 
 [build.environment]
